@@ -1,0 +1,107 @@
+.light-controller {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 750px;
+  height: 100px;
+}
+
+.option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  width: 90px;
+  border: 1px solid white;
+}
+
+.option:hover {
+  background-color: rgb(29, 28, 28);
+  color: whitesmoke;
+}
+
+.option:active {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.tweaks {
+  height: 90px;
+  width: 90px;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.color-control {
+  width: 80px;
+  height: 35px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.arrow-container {
+  width: 25px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 12px solid white;
+}
+
+.arrow-up:hover {
+  border-bottom: 12px solid grey;
+}
+
+.arrow-up:active {
+  border-bottom: 12px solid rgb(29, 28, 28);
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 12px solid white;
+}
+
+.arrow-down:hover {
+  border-top: 12px solid grey;
+}
+
+.arrow-down:active {
+  border-top: 12px solid rgb(29, 28, 28);
+}
+
+.button {
+  width: 80px;
+  height: 35px;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:hover {
+  background-color: rgb(29, 28, 28);
+  color: whitesmoke;
+}
+
+.button:active {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}

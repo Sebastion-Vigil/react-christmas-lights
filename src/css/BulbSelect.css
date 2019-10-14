@@ -1,0 +1,57 @@
+.bulb-select {
+  width: 150px;
+  height: 35px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.left {
+  width: 0;
+  height: 0;
+  border-top: 14px solid transparent;
+  border-bottom: 14px solid transparent;
+  border-right: 14px solid white;
+}
+
+.left:hover {
+  border-right: 14px solid grey;
+}
+
+.left:active {
+  border-right: 14px solid rgb(29, 28, 28);
+}
+
+.right {
+  width: 0;
+  height: 0;
+  border-top: 14px solid transparent;
+  border-bottom: 14px solid transparent;
+  border-left: 14px solid white;
+}
+
+.right:hover {
+  border-left: 14px solid grey;
+}
+
+.right:active {
+  border-left: 14px solid rgb(29, 28, 28);
+}
+
+.select {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.5px solid white; 
+}
+
+.select:hover {
+  background-color: rgb(29, 28, 28);
+  color: whitesmoke;
+}
+
+.select:active {
+  background-color: white;
+  color: black;
+}
