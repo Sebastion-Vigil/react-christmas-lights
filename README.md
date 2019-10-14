@@ -1,7 +1,7 @@
 # Christmas Lights
 
 
-![App-Image](https://github.com/SeanValdivia/react-christmas-lights/blob/master/src/images/ChristmasLights.png)
+![App-Image](https://github.com/Sebastion-Vigil/react-christmas-lights/blob/master/src/images/ChristmasLights.png)
 
 **Tier:** 1-Beginner
 
